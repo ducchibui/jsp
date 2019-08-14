@@ -24,4 +24,8 @@
 		<exception-type>java.io.IOException</exception-type>
 		<location>/handle-error</location>
 	</error-page>
+	<context-param>
+	<param-name>name1</param-name>
+	<param-value>khanh</param-value>
+	</context-param>
 </web-app>

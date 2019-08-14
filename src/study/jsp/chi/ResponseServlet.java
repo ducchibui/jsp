@@ -21,9 +21,9 @@ public class ResponseServlet extends HttpServlet{
 		PrintWriter printWriter = resp.getWriter();
 		printWriter.println("<h1>Xin chao Trung tam Java</h1>");
 		
-		resp.addCookie(new Cookie("aa", "AAAA"));
-		resp.addHeader("chi", "test");
-		resp.sendError(200);
+//		resp.addCookie(new Cookie("aa", "AAAA"));
+//		resp.addHeader("chi", "test");
+//		resp.sendError(200);
 		
 		ArrayList<String> enumerations =(ArrayList<String>) resp.getHeaderNames();
 		for(String e: enumerations) {
